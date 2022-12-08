@@ -1,0 +1,257 @@
+/* this is the universal selector */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* this is the element selector */
+body {
+    background-color: #d9dcd6;
+}
+
+/*  this is a class selector on line 11 for header, located at the top of the page with a selected font, 
+    the font color, and a padding along with the color. */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* this is a class selector for line 12 for header setting the display of the text "Horiseon" and the font size. */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* this is a class selector for line 12 "seo" for the header setting the text "seo" in a specific color. */
+.seo {
+    color: #d9dcd6;
+}
+
+/*  this is a class selector for line 13-25 by adding a padding at the top for 15 pixels shifting it downwards, 
+    margin-right 20 pixels by shifting it to the left, displaying the font and text to the right side of the header page. */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* this is a class selector for line 14-24, everything in the header div unlist will have the list style type as none */
+ul {
+    list-style-type: none;
+}
+
+/*  this is a class selector for line 15-23, everything in the header div list will have a display inline block and the 
+    texts will be 25 pixels apart from each other. */
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* this sets the hyperlink from line 16-22 a specific color. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* this sets all pargraphs, <p>, to a specific font size; 16 pixels. */
+p {
+    font-size: 16px;
+}
+
+/*  this selector will display the image located in the image folder with a specific height of 800 pixels, 100% width 
+    meaning it will reach both left and right sides of the webpage, a margin of 25 pixels push upwards from the bottom,
+    and it's size and position. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*  this class selector will apply to any code with "class = "float-left"", making the content float left with a 
+    margin right of 25 pixels pushed towards to the left side. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*  this class selector will apply to any code with "class = "float-right"", making the content float right with a 
+    margin left of 25 pixels pushed towards to the right side. */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*  this is for line 28-50; giving everything in this "class = content" a width of 75% with a displayed inline block 
+    and margin 20 pixels pushed towards to the right of the page. */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*  this is for line 51-73; everything in this "class = benefits" will have a specific text, color, width, height, 
+    padding of 20 pixels from the border, floating right and pushed towards the left by 20 pixels. */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*  this is for line 52-58; everything in these line with the "class = beneift-lead" will have a specific color along 
+    with a margin pushing the content upward by 32 pixels. */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*  this is for line 59-65; everything in these line with the "class = beneift-brand" will have a specific color along 
+    with a margin pushing the content upward by 32 pixels. */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*  this is for line 66-72; everything in these line with the "class = beneift-cost" will have a specific color along 
+    with a margin pushing the content upward by 32 pixels. */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*  this is for line 53; the text "Lead Generation" will be aligned in the center with a margin 
+    pushing the text upward by 10 pixels. */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*  this is for line 60; the text "Brand Awareness" will be aligned in the center with a margin 
+    pushing the text upward by 10 pixels. */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*  this is for line 67; the text "Cost Management" will be aligned in the center with a margin 
+    pushing the text upward by 10 pixels. */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* this is for line 54; the image is be displayed in a block element with a specific margin and width. */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* this is for line 61; the image is be displayed in a block element with a specific margin and width. */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* this is for line 68; the image is be displayed in a block element with a specific margin and width. */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*  this is for line 29-35; the content will have a specific font, background color, text color, along with a specific height. 
+    It will have a padding of 50 pixels away from the border on all sides and a margin of 20 pixels pushed upwards. */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*  this is for line 36-42; the content will have a specific font, background color, text color, along with a specific height. 
+    It will have a padding of 50 pixels away from the border on all sides and a margin of 20 pixels pushed upwards. */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*  this is for line 43-49; the content will have a specific font, background color, text color, along with a specific height. 
+    It will have a padding of 50 pixels away from the border on all sides and a margin of 20 pixels pushed upwards. */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* this is for line 31; giving the image a maximum height of 200 pixels. */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* this is for line 38; giving the image a maximum height of 200 pixels. */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* this is for line 45; giving the image a maximum height of 200 pixels. */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*  this is for line 32; giving the text "Search Engine Optimization" a font size of 36 pixels and 
+    a margin of 20 pixel pushed upwards. */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*  this is for line 39; giving the text "Search Engine Optimization" a font size of 36 pixels and 
+    a margin of 20 pixel pushed upwards. */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*  this is for line 46; giving the text "Search Engine Optimization" a font size of 36 pixels and 
+    a margin of 20 pixel pushed upwards. */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*  this is for the footer on line 75-80; everything in this selector will have the text aligned in the center
+    with a specific text font, and a padding of 30 pixels from the border from all sides. */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* this is for line 76; giving the text "Made with ❤️️ by Horiseon" a font size of 20 pixels. */
+.footer h2 {
+    font-size: 20px;
+}

@@ -8,23 +8,23 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 span {
     color: #d9dcd6;
 }
 
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,7 +50,10 @@ p {
     font-size: 16px;
 }
 
-.hero {
+
+/* Changed from hero class to the figure semantic element. */
+
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -58,6 +61,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+
 
 .float-left {
     float: left;
@@ -69,13 +74,16 @@ p {
     margin-left: 25px;
 }
 
-.content {
+/* Changed .content to article element */
+article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+
 }
 
-.benefits {
+/* Changed .benefits to aside element */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -84,37 +92,61 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    color: #ffffff;
 }
 
+
+
+aside section {
+    margin-bottom: 32px;
+}
+
+/* Consolidated 3 class img in aside section. */ 
+/*
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
 }
-
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
 }
-
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+}
+*/
+
+
+
+aside section h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
+/* Consolidated 3 margin-bottom and text-align property for Aside section h3. */
+/*
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
+
+
+
+aside img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Consolidated 3 Aside img values. */
+/*
 
 .benefit-lead img {
     display: block;
@@ -133,7 +165,19 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
 
+
+article section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Consolidated 3 section values. */
+/*
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,19 +204,17 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
 
-.search-engine-optimization img {
-    max-height: 200px;
+
+
+article section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
+/* Consolidated 3 h2 values in article section h2. */
+/*
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,14 +229,35 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
 
-.footer {
+
+
+article section img {
+    max-height: 200px;
+
+}
+
+/* Consolidated 3 class img into the image class selectors in the article section img*/ 
+/*
+.search-engine-optimization img {
+    max-height: 200px;
+}
+.online-reputation-management img {
+    max-height: 200px;
+}
+.social-media-marketing img {
+    max-height: 200px;
+}
+*/
+
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
