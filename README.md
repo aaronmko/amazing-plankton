@@ -34,7 +34,7 @@ THEN I find a concise, descriptive title
 
 ## Mock-Up
 
-* The following image shows the web application's appearance and functionality:
+* The following image shows the web application's appearance and functionality: https://aaronmko.github.io/Module-1/
 
 
 ## Submission
