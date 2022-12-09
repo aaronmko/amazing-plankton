@@ -37,7 +37,6 @@ THEN I find a concise, descriptive title
 * The following image shows the web application's appearance and functionality:
 
 
-
 ## Submission
 
 You are required to submit the following for review:
